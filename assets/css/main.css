@@ -458,6 +458,7 @@ h6 {
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
+    height: 50%;
   }
 
   .navmenu a,
@@ -553,6 +554,8 @@ h6 {
     display: block;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -752,7 +755,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 30px 0;
   scroll-margin-top: 92px;
   overflow: clip;
 }
@@ -1441,6 +1444,13 @@ bottom: var(--swiper-pagination-bottom, -10px)
   overflow: hidden;
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  .member-img img {
+    height: 100%;
+  }
+}
+
 
 .chefs .team-member .member-img:after {
   position: absolute;
