@@ -237,6 +237,22 @@ h6 {
   height: 450px;
 }
 
+.owmer-img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .owmer-img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 450px;
+  }
+}
+
+
 
 .header .logo img {
   max-height: 45px;
@@ -485,12 +501,12 @@ h6 {
   } */
 
   .navmenu span{
-        margin-left: 15px;
-        margin-top: 17px;
-        font-size: larger;
-        font-weight: 500;
-        color: #fff;
-        font-family: 'Inter';
+    margin-left: 15px;
+    margin-top: 17px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    font-family: cursive;
   }
 
   .navmenu ul {
@@ -514,8 +530,8 @@ h6 {
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
-    height: 60%;
-    width: 70%;
+    height: 100%;
+    width: 80%;
     float: inline-end;
     text-align: center;
     
@@ -524,14 +540,14 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-dropdown-color);
-    padding: 10px 20px;
-    font-family: var(--nav-font);
-    font-size: 17px;
+    color: #fff;
+    padding: 20px 20px;
+    font-family: system-ui;
+    font-size: 23px;
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -560,7 +576,7 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: #f5ae2b;
   }
 
   .navmenu .active i,
