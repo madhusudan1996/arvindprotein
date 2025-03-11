@@ -503,8 +503,8 @@ h6 {
   .navmenu span{
     margin-left: 15px;
     margin-top: 17px;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 26px;
+    font-weight: 700;
     color: #fff;
     font-family: cursive;
   }
@@ -541,9 +541,9 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: #fff;
-    padding: 20px 20px;
+    padding: 17px 20px;
     font-family: system-ui;
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 500;
     display: flex;
     align-items: center;
